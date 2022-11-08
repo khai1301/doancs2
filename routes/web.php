@@ -78,3 +78,5 @@ Route::get('/admin/qladmin', function () {
 
 Route::post('/admin/login', [AdminController::class, 'loginPost'])->name('admin.loginPost');
 Route::get('/admin/dashboard', [AdminController::class, 'dashboard'])->name('admin.dashboard');
+
+concac
